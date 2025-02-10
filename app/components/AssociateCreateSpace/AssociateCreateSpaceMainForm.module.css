@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header div {
+  margin-left: 1rem;
+  width: 100%;
+}
+
+.divProfilePhoto {
+  max-width: 17%;
+}
+
+.profilePhoto {
+  border-radius: 100%;
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+}
+
+.uploadIconSpan {
+  margin-top: -0.3;
+  width: 25px;
+  height: 25px;
+  min-width: 25px;
+  min-height: 22px;
+  background-color: rgba(209, 207, 207, 0.7);
+  border-radius: 100%;
+  font-size: 1.5rem;
+  align-self: end;
+  margin-left: -2rem;
+  z-index: 100;
+  text-align: center;
+  border: 1px solid gray;
+}
+
+.uploadIcon {
+  margin-top: -0.5rem;
+  margin-bottom: -0.3rem;
+  padding-top: 0.9rem;
+  color: gray;
+}
+
+.uploadIcon:hover {
+  margin-top: -0.5rem;
+  margin-bottom: -0.3rem;
+  color: black;
+}

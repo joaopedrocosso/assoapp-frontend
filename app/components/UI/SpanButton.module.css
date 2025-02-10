@@ -1,0 +1,42 @@
+.nav__spanButton {
+  height: 100%;
+}
+
+.nav__spanButton_text {
+  margin-top: 0.2rem;
+  position: relative;
+  display: inline-block;
+  height: 100%;
+
+  font-size: 1.5rem;
+}
+
+.nav__spanButton_text:hover {
+  border-bottom: 3px solid red;
+}
+
+.nav__spanButton_text_background {
+  color: white;
+  margin-top: 0.2rem;
+  position: relative;
+  display: inline-block;
+  height: 100%;
+
+  font-size: 1.5rem;
+}
+
+.nav__spanButton_text_background:hover {
+  border-bottom: 3px solid white;
+}
+
+.nav__profilePic {
+  border-radius: 50%;
+  max-height: 30px;
+  margin-left: 1.1rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}

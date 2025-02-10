@@ -1,0 +1,165 @@
+.eventDiv {
+  padding-top: 1rem;
+  font-size: 12px;
+  padding-left: 1rem;
+  padding-bottom: 50rem;
+  overflow: auto;
+}
+
+.event {
+  margin-top: 0.7rem;
+  width: 94%;
+  border-left: 1px solid black;
+  padding-left: 1rem;
+}
+
+.eventHeader {
+  display: flex;
+}
+
+.event:hover {
+  border-left: 5px solid #ee0b19;
+}
+
+.event * {
+  width: 100%;
+}
+
+.event input {
+  border-bottom: 1px solid black;
+}
+
+.event:focus-within {
+  border-left: 5px solid #ee0b19;
+  padding-left: 1.5rem;
+}
+
+.eventTitle {
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+.eventTitleDescription {
+  font-size: 1.3rem;
+  padding-bottom: 1rem;
+  font-style: italic;
+}
+
+.eventTitleDescriptionSpan {
+  font-style: normal;
+}
+
+.eventsDivTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.editInput {
+  width: 96%;
+  border: 0px;
+  border-bottom: 1px solid black;
+  height: 2rem;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.editInput:focus {
+  outline: none;
+  border-bottom: 1px solid #ee0b19;
+}
+
+.eventInputParagraph {
+  margin-top: 0.4rem;
+  text-decoration: none;
+}
+
+.saveButton {
+  background-color: #ee0b19;
+  color: white;
+  border: none;
+  height: 30px;
+  width: 20%;
+  margin-top: 1rem;
+}
+
+.saveButton:hover {
+  box-shadow: 1px 4px 1px rgba(0, 0, 0, 0.1);
+}
+
+.labelTitle {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  display: block;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.bigTitle {
+  color: #ee0b19;
+  font-size: 2rem;
+  padding-top: 1rem;
+  width: 97%;
+}
+
+.addIcon {
+  font-size: 3rem;
+  margin-right: 4rem;
+  margin-left: auto;
+  margin-top: 0.5rem;
+}
+
+.addIcon:hover {
+  color: #ee0b19;
+}
+
+.divTitle {
+  display: flex;
+}
+
+.iconDelete {
+  width: 20px;
+  font-size: 2rem;
+  margin-left: auto;
+  margin-right: 2.5rem;
+}
+
+.iconDelete:hover {
+  width: 21px;
+  color: #ee0b19;
+  font-size: 2.5rem;
+  margin-left: auto;
+  margin-right: 2.5rem;
+}
+
+.eventSelected {
+  border-left: 5px solid #ee0b19;
+  padding-left: 1.5rem;
+}
+
+.associateItem {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0rem;
+}
+
+.associate_profilePhoto {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  min-width: 50px;
+}
+
+.associate_title {
+  padding-left: 1rem;
+  font-size: 1.5rem;
+}
+
+.associate_title:hover {
+  font-weight: bold;
+}
+
+.eventParticipantsText {
+  margin-top: 1rem;
+}

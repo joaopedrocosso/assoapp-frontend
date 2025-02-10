@@ -1,0 +1,48 @@
+.modal {
+  position: absolute;
+  right: 0;
+  transform: translate(0, 100%);
+  width: 300px;
+  border-radius: 6px;
+  margin-right: 1rem;
+  color: white;
+  opacity: 1;
+  animation: fadeInOut 5s ease-in-out; /* Adiciona a animação */
+  z-index: 1000;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translate(0, -100%);
+  } /* Início da animação, opacidade 0 */
+  10% {
+    opacity: 1;
+    transform: translate(0, -100%);
+  } /* Metade da animação, opacidade 1 */
+  90% {
+    opacity: 1;
+    transform: translate(0, -100%);
+  } /* Metade da animação, opacidade 1 */
+  100% {
+    opacity: 0;
+    transform: translate(0, 100%);
+  } /* Fim da animação, opacidade 0 */
+}
+
+.ok {
+  background-color: #8bc34a;
+}
+
+.bad {
+  background-color: #ff5722;
+}
+
+.modal p {
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.invisible {
+  display: none;
+}

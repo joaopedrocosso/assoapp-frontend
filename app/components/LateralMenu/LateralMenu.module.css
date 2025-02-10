@@ -1,0 +1,62 @@
+@keyframes fadeIn {
+  from {
+    visibility: hidden;
+    opacity: 0;
+  }
+  to {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.animatedDiv {
+  animation: fadeIn 1s ease-out forwards;
+  visibility: hidden;
+}
+
+/* Adicione uma classe para indicar quando a animação deve começar */
+.animatedDiv.visible {
+  animation-play-state: running;
+}
+
+.lateralmenu {
+  display: flex;
+  flex-direction: column;
+  background-color: #ee0b19;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  padding-top: 90px;
+  width: 3rem;
+  z-index: 900;
+  transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+.open {
+  width: 10%;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.lateralmenu div {
+  padding-top: 1rem;
+}
+
+.menuIcon {
+  text-align: end;
+  font-size: 3rem;
+  color: white;
+  cursor: pointer;
+}
+
+.lateralmenu__item {
+  animation: fadeIn 1s ease-out forwards;
+  visibility: hidden;
+  opacity: 100%;
+  display: flex;
+  display: inherit;
+  justify-content: center;
+  transition: opacity 0.1s ease-in-out, height 0.1s ease-in-out;
+  animation-play-state: running;
+}

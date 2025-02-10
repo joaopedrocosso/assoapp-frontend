@@ -1,0 +1,39 @@
+.table {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column; /* ou row, dependendo do seu layout */
+  align-items: flex-start;
+  overflow-y: auto;
+}
+
+.searchInput {
+  width: 96%;
+  border: 0px;
+  border-bottom: 1px solid black;
+  height: 2rem;
+  font-size: 1.5rem;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-bottom: 1px solid #ee0b19;
+}
+
+.tableTitle {
+  display: block;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  overflow-y: hidden;
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: 200;
+}

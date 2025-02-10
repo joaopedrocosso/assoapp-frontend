@@ -1,0 +1,15 @@
+.labelTitle {
+  font-size: 1.5rem;
+  padding-bottom: 0.8rem;
+  padding-top: 1rem;
+  display: block;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.bigTitle {
+  color: #ee0b19;
+  font-size: 2rem;
+  margin-top: 1.2rem;
+  padding-top: 1rem;
+  width: 97%;
+}

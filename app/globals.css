@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* //This attribute define what 1rem is, in this case 10px. */
+  font-size: 62.5%;
+}
+
+@font-face {
+  font-family: "AtlasGrotesk";
+  font-weight: 400;
+  src: url("/fonts/AtlasGrotesk-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "AtlasGrotesk";
+  font-weight: 300;
+  src: url("/fonts/AtlasGrotesk-Thin.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "AtlasGrotesk";
+  src: url("/fonts/AtlasGrotesk-black.otf") format("opentype");
+  font-weight: 600;
+}
+
+body {
+  font-family: "AtlasGrotesk" !important;
+  font-weight: 400;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #dfdfdf;
+}

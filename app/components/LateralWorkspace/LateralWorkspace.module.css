@@ -1,0 +1,60 @@
+.lateralworkspace {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  margin-left: 560px;
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+  height: 100vh;
+  padding-top: 75px;
+  width: 600px;
+  z-index: 900;
+  transition: transform 0.3s ease-in-out;
+  transform: translate(100%, 0);
+  opacity: 0;
+}
+
+.active {
+  transform: translate(0, 0);
+  transition: transform 0.3s ease-in-out;
+  opacity: 100%;
+}
+
+.header {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  font-size: 4rem;
+  height: 50px;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.header h1 {
+  font-size: 2rem;
+  padding-top: 0.3rem;
+  padding-left: 1.5rem;
+}
+
+.leftIcons {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.closeIcon {
+  font-size: 4rem;
+}
+
+.closeIcon:hover {
+  color: #ee0b19;
+}
+
+.saveIcon {
+  font-size: 2.7rem;
+  padding-right: 1rem;
+}
+
+.saveIcon:hover {
+  color: #ee0b19;
+}

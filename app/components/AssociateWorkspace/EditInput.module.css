@@ -1,0 +1,13 @@
+.editInput {
+  width: 96%;
+  border: 0px;
+  border-bottom: 1px solid black;
+  height: 2rem;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.editInput:focus {
+  outline: none;
+  border-bottom: 1px solid #ee0b19;
+}

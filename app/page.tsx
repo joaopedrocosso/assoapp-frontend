@@ -9,7 +9,7 @@ import { useGlobalContext } from "./context/store";
 export default function Home() {
   const { user, setBackendURL } = useGlobalContext();
 
-  setBackendURL("http://localhost:8000/");
+  setBackendURL("https://assoapp-backend.onrender.com/");
 
   return (
     <main className={styles.main}>
